@@ -51,7 +51,7 @@
 3. Replace placeholder dataset/table names with yours where necessary.
 4. Export results to `assets/` if you want to version outputs (CSV/Parquet).
 
-## Notes on Correlation (Optional)
+## Notes on Correlation
 - `session_engaged` vs `purchase` → **point‑biserial correlation** (implemented via `CORR` between a binary and a numeric).
 - `engagement_time_msec` vs `purchase` → **Pearson correlation** at the session level.
 - Always inspect distributions and consider confounders (traffic source, device, new vs returning).
