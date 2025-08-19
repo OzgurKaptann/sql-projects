@@ -13,7 +13,7 @@
 - Nulls are handled with `COALESCE` and guarded casts (e.g., `SAFE_CAST`).
 
 ## Query Guide
-### 1. Görev 2 SQL (Temizlenmiş) — `Query_I.sql`
+### 1.Query SQL  — `Query_I.sql`
 **Why:** To measure how many engaged sessions progress from product interaction to starting checkout.
 **What it does:**
 - Defines clean session keys and joins event‑level data where needed.
@@ -21,7 +21,7 @@
 - Uses `COALESCE` to avoid null propagation in calculations.
 **Outputs:** session‑level table or a metrics table usable for dashboards.
 
-### 2. Görev 3 SQL (Temizlenmiş) — `Query_II.sql`
+### 2.Query  SQL  — `Query_II.sql`
 **Why:** To measure how many engaged sessions progress from product interaction to starting checkout.
 **What it does:**
 - Defines clean session keys and joins event‑level data where needed.
@@ -29,7 +29,7 @@
 - Uses `COALESCE` to avoid null propagation in calculations.
 **Outputs:** session‑level table or a metrics table usable for dashboards.
 
-### 3. Görev 4 SQL (Temizlenmiş) — `Query_III.sql`
+### 3.Query  SQL  — `Query_III.sql`
 **Why:** To compute final conversion at purchase and connect it back to earlier funnel steps.
 **What it does:**
 - Defines clean session keys and joins event‑level data where needed.
@@ -37,7 +37,7 @@
 - Uses `COALESCE` to avoid null propagation in calculations.
 **Outputs:** session‑level table or a metrics table usable for dashboards.
 
-### 4. Görev 5 SQL (Temizlenmiş) — `Query_IV.sql`
+### 4.Query  SQL  — `Query_IV.sql`
 **Why:** To quantify the relationship between engagement (presence and duration) and the likelihood of purchase at the session level.
 **What it does:**
 - Defines clean session keys and joins event‑level data where needed.
